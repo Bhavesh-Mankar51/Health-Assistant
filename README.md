@@ -1,10 +1,10 @@
-# Health Assistant
+# CarePlus
 
 A Retrieval-Augmented Generation (RAG) based health assistant that leverages advanced AI and vector databases to provide medical information and health guidance through a conversational interface.
 
 ## Overview
 
-Health Assistant is an intelligent medical question-answering system built with modern AI technologies. It combines:
+CarePlus is an intelligent medical question-answering system built with modern AI technologies. It combines:
 - **LangChain** for orchestrating LLM workflows
 - **OpenAI GPT-4** for intelligent medical response generation
 - **Pinecone Vector Database** for semantic search and knowledge retrieval
@@ -55,7 +55,7 @@ Health Assistant is an intelligent medical question-answering system built with 
 ## Project Structure
 
 ```
-Health-Assistant/
+CarePlus/
 ├── app.py                    # Flask application and RAG chain setup
 ├── store_index.py            # Script to create and populate Pinecone index
 ├── requirements.txt          # Python dependencies
@@ -111,8 +111,8 @@ Health-Assistant/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Bhavesh-Mankar51/Health-Assistant.git
-   cd Health-Assistant
+   git clone https://github.com/Bhavesh-Mankar51/CarePlus.git
+   cd CarePlus
    ```
 
 2. **Create and activate virtual environment**
